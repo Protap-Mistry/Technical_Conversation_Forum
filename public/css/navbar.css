@@ -1,0 +1,33 @@
+
+.navbar-default {
+    background-color: #546E7A;
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #efefef;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #ffffff;
+
+}
+.active{
+  border-bottom: #ffffff;
+}
+.logopng {
+    height: 59px;
+    width: 92px;
+    padding-top: 3px;
+    padding-left: 5px;
+    margin-top: 2px;
+}
+.navbar-brand {
+    float: left;
+    height: 52px;
+    font-size: 18px;
+    padding:0px;
+    line-height: 20px;
+}

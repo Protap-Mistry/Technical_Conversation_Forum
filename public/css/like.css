@@ -1,0 +1,127 @@
+.like-btn{
+  background: #3399ff none repeat scroll 0 0;
+  border-radius: 3px;
+  color: white;
+  padding: 7px 3px 3px 7px;
+  margin-right: 5px;
+  margin-top: -5px;
+}
+.like-btn i,.dislike-btn i{
+  color: white;
+}
+.dislike-btn{
+  background: #FA4E69 none repeat scroll 0 0;
+  border-radius: 3px;
+  color: white;
+  padding: 7px 5px 3px 3px;
+  margin-top: -5px;
+}
+
+a {
+  overflow: hidden;
+}
+a img {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+a:hover span.overlay {
+  display: block;
+  visibility: visible;
+  opacity: 0.55;
+  -moz-opacity: 0.55;
+  -webkit-opacity: 0.55;
+}
+a:hover span.overlay i {
+  position: absolute;
+  top: 45%;
+  left: 0%;
+  width: 100%;
+  font-size: 2.25em;
+  color: #fff !important;
+  text-align: center;
+  opacity: 1;
+  -moz-opacity: 1;
+  -webkit-opacity: 1;
+}
+
+h4 {
+  display: inline;
+  font: 400 normal 1.125em "Roboto",Arial,Verdana,sans-serif;
+  color: #34495e margin: 0 !important;
+  padding: 0 !important;
+  font-size: 12px;
+}
+h4 a{
+  padding: 4px 7px;
+  text-decoration: none;
+}
+h4 a:hover{
+  background-color: #69a8d4;
+  color: white;
+  border-radius: 2px;
+  transition: all 0.4s;
+}
+i.glyphicon {
+  display: inline;
+  font-size: 1.125em;
+  cursor: pointer;
+  padding-right: 7px;
+}
+i.glyphicon-thumbs-down {
+  color: #e74c3c;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.like-post{
+  color: #e21309 !important;
+}
+
+
+/* Style buttons */
+.lovebtn {
+  border: none; /* Remove borders */
+  color: rgb(75, 69, 69); /* White text */
+  /* Some padding */
+  font-size: 22px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  border-radius:50%;
+  background-color:transparent;
+}
+
+/* Darker background on mouse-over */
+.lovebtn:hover {
+ color: rgb(231, 0, 0);
+}
+/* Style buttons */
+.lovebtn {
+  border: none; /* Remove borders */
+  color: rgb(75, 69, 69); /* White text */
+  /* Some padding */
+  font-size: 22px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  border-radius:50%;
+  background-color:transparent;
+}
+
+/* Darker background on mouse-over */
+.lovebtn:hover {
+ color: rgb(231, 0, 0);
+}
+
+.xlovebtn {
+  border: none; /* Remove borders */
+  color:  rgb(231, 0, 0); /* White text */
+  /* Some padding */
+  font-size: 22px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  border-radius:50%;
+  background-color:transparent;
+}
+
+/* Darker background on mouse-over */
+.xlovebtn:hover {
+ color:rgb(75, 69, 69);
+}
